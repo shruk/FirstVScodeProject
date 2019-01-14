@@ -4,3 +4,6 @@
 4. Download and unzip Maven folder.
 5. Add maven folder bin directory to PATH. test with mvc -v 
 6. Install Java Extension Pack and choose to reload to enable. (MS has one to offer)
+7. user can create Hello.java file in vscode now.
+8. To use/run java code, go to FIle--> preference-> settings
+9. update workspace settings with  "java.home":"C:\\Program Files\\Java\\jdk1.8.0_172"
