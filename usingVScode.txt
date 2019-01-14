@@ -1,0 +1,1 @@
+1. Ctrl+Shift+p : open up command view to select different feature.
