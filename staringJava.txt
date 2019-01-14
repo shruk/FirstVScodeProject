@@ -50,7 +50,7 @@ java abc class file will run the simple class file
     1. create sample.java file and save 
     2. javac sample.java
     3. jar -cvf sample.jar sample.class   (create jar file)
-    4. java sample.jar (run the jar file)
+    4. java -cp sample.jar sample (run the jar file, providing -cp for classpath)
 
 
 --testing java
