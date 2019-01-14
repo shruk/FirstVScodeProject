@@ -1,0 +1,4 @@
+1.make sure Maven for java extention is installed.
+2.use maven quick start archetype to generate a new Maven project
+3.create project under specified folder with command.
+4.mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
