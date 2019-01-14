@@ -12,8 +12,10 @@
 12: Copy github repo url, come back to terminal in vscode \
 13: git remote add origin https://github.com/shruk/FirstVScodeProject.git (origin is the remote github)
 14: git remote -v (verify?)
-15: git push origin master (git push to remote)
+15: git push origin master (git push to remote, sync local to remote)
 16: git branch -a to display all branches
 17. git diff master origin/master to display diff between local and remote
 18: make some change and save again. you can see the left gutter with color coded sign to indicate change.
 19: go to git window and under the changes file, you can double click the file to view the differences between original and the change.
+20: in vscode left bottom corner, there is a button to sync local and remote.
+21: in vscode left bottom corner, there is a dropdown to choose branch. click that will also choose to create a new branch.
