@@ -26,6 +26,7 @@ java abc class file will run the simple class file
 
   -classpath is a path for java command to know where the .class file located
   e.g. java -classpath D:\myprogram org.mypackage.HelloWorld
+  e.g. java -classpath "./simpleJavaProject" HelloWorld
   e.g. set CLASSPATH=D:\mygrogram
         java org.mypakcage.HelloWorld
   classpath checked under this sequence:1. -classpath 2. CLASSPATH environment variable 3. current directory
