@@ -10,6 +10,6 @@
 10: git commit
 11: go to github and create a new repository
 12: Copy github repo url, come back to terminal in vscode \
-13: git remote add origin https://github.com/shruk/FirstVScodeProject.git
-14: git remote -v
-15: git push origin master
+13: git remote add origin https://github.com/shruk/FirstVScodeProject.git (origin is the remote github)
+14: git remote -v (verify?)
+15: git push origin master (git push to remote)
