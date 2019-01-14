@@ -1,0 +1,5 @@
+1. Download JDK and install. 8u191 32 bit from oracle website.
+2. set JAVA_HOME environment var to the installation path (e.g. C:\Program Files\Java\jdk1.8.0_172)
+3. Verify with echo %JAVA_HOME%
+3. Download and unzip Maven folder.
+4. Add maven folder bin directory to PATH. test with mvc -v 
