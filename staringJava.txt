@@ -8,6 +8,42 @@
 8. To use/run java code, go to FIle--> preference-> settings
 9. update workspace settings with  "java.home":"C:\\Program Files\\Java\\jdk1.8.0_172"
 10. If everything in the code runs, hit F5 or go to debugger left pane to run the simple java apps.
+11. in order to run javac anywhere, need to add C:\Program Files\Java\jdk1.8.0_172\bin to path.
+
+
+--java project structure.
+main folder (root folder with app name e.g. my-app)
+ -src (including java source and test source)
+ -target (includes compiled .class files for JVM to run)
+ .classpath file (xml file contains srouce and build path for folder structure)
+ .project file (eclipse related file, should be in .gitignore)
+ pom.xml file (maven file that control project management dependencies)
+
+--run java
+java is a java application lancher, a type of sdkTool.
+javac abc.java file will generate .class file
+java abc class file will run the simple class file
+
+  -classpath is a path for java command to know where the .class file located
+  e.g. java -classpath D:\myprogram org.mypackage.HelloWorld
+  e.g. set CLASSPATH=D:\mygrogram
+        java org.mypakcage.HelloWorld
+  classpath checked under this sequence:1. -classpath 2. CLASSPATH environment variable 3. current directory
+  classpath needs to also include any library path that program requires
+    *java -classpath D:\myprogram;D:\myprogram\lib\supportLib.jar org.mypackage.HelloWorld
+    OR
+    *set CLASSPATH=D:\myprogram;D:\myprogram\lib\supportLib.jar
+    java org.mypackage.HelloWorld
+
+    *includ all .JAR in classpath
+    java -classpath ".;c:\mylib\*" MyApp
+
+*manifest file defines where the entry main class location is in a Jar file
+    e.g.Main-Class: org.mypackage.HelloWorld
+        Class-Path: lib/supportLib.jar
+
+    to run such jar file
+    java -jar D:\myprogram\helloWorld.jar
 
 --testing java
 1. ensure Java test Runner is installed and enabled.
