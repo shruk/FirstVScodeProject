@@ -7,3 +7,4 @@
 7. user can create Hello.java file in vscode now.
 8. To use/run java code, go to FIle--> preference-> settings
 9. update workspace settings with  "java.home":"C:\\Program Files\\Java\\jdk1.8.0_172"
+10. If everything in the code runs, hit F5 or go to debugger left pane to run the simple java apps.
