@@ -1,4 +1,26 @@
-1.make sure Maven for java extention is installed.
-2.use maven quick start archetype to generate a new Maven project
-3.create project under specified folder with command.
-4.mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+make sure Maven for java extention is installed.
+use maven quick start archetype to generate a new Maven project
+create project under specified folder with command.
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+src/main/java contains project source code
+src/test/java contains test source code
+pom.file is project's Project Object Model pom
+
+Maven phases
+validate - validate the project is correct and all necessary information is available
+compile - compile the source code of the project
+test - test the compiled source code using a suitable unit testing framework. These tests should not require the code be packaged or deployed
+package - take the compiled code and package it in its distributable format, such as a JAR.
+verify - run any checks on results of integration tests to ensure quality criteria are met
+install - install the package into the local repository, for use as a dependency in other projects locally
+deploy - done in the build environment, copies the final package to the remote repository for sharing with other developers and projects.
+
+
+after project is created we can build the mvn project, go to directory where pom file exists.
+mvn -package (this is a phase in build lifecycle)
+
+
+ mvn verify
+ mvn clean
+ mvn install
