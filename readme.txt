@@ -13,3 +13,5 @@
 13: git remote add origin https://github.com/shruk/FirstVScodeProject.git (origin is the remote github)
 14: git remote -v (verify?)
 15: git push origin master (git push to remote)
+16: git branch -a to display all branches
+17. git diff master origin/master to display diff between local and remote
