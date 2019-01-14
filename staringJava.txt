@@ -46,5 +46,12 @@ java abc class file will run the simple class file
     to run such jar file
     java -jar D:\myprogram\helloWorld.jar
 
+--creating jar for java file    
+    1. create sample.java file and save 
+    2. javac sample.java
+    3. jar -cvf sample.jar sample.class   (create jar file)
+    4. java sample.jar (run the jar file)
+
+
 --testing java
 1. ensure Java test Runner is installed and enabled.
