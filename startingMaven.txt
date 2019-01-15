@@ -24,3 +24,6 @@ mvn -package (this is a phase in build lifecycle)
  mvn verify
  mvn clean
  mvn install
+
+run the jar file for sample app
+ java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
