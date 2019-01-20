@@ -55,3 +55,19 @@ java abc class file will run the simple class file
 
 --testing java
 1. ensure Java test Runner is installed and enabled.
+
+--folder structure
+-src/main/resource folder by default should be copied to classpath output folder.
+
+--VM argument, it is the argument you can type in elicpse -DsysProp1=sp1 -DsysProp2=sp2 
+without eclipse IDE, you get set it like System.getProperties().setProperty("spring.profiles.active", "prod"); 
+
+--program argument， it is the argument for the main method of java program
+
+--spring boot applicaiton.Properties
+https://docs.spring.io/spring-boot/docs/current/reference/html/common-application-properties.html
+
+Junit --unit test
+Hamcrest --Matching and assertiong
+MOckito -- mock objects and Verify
+Spring Test --testing tools and integration testing support

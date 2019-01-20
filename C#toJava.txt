@@ -1,0 +1,19 @@
+--Array
+    Array declaration is very similar. both int [] =myArray; 
+    C#:int [,] myArray;
+    java: int [][] myArray;
+    
+    C# require a size during declaration with size value. 
+    C#: myArray = new int [3] {1,2,3};
+    Java: myArray=new int [] {1,2,3};
+    C#: myArray =new int[10];
+    Java: myArray=new int[10];
+    C#: myArray=new int[10,10,10];
+    Java: myArray=new int [10][10][10];
+
+    --implicitly declared type
+    C# support this feature
+    var dictionary = new Dictionary<string, int>
+    
+    Java doesn't support this feature yet.
+    HashMap<String, Integer> hashMap = new HashMap<String, Integer>();

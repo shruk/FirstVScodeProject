@@ -1,0 +1,25 @@
+After creating a maven application, Add annotation @SpringBootApplication in the class header where main function exists
+
+@SpringBootApplication is a convenience annotation that wraps commonly used annotations with spring boot.
+
+@Configuration Spring configuration on startup, replace old xml configuration by using java
+@EnableAutoConfiguration  Auto configures frameworks, auto-configure spring frameworks, dependencies
+@ComponentScan Scan project for Spring components, it better place in the root level of application for directory scan.
+
+
+Adding SpringApplication.run(App.class,args); inside main method
+
+this method starts Spring, creates spring context, applies annotations and setsup container
+
+
+Adding packages for controller/repository/service/model
+in controller package, create HomeController and add @RestController
+in controller method, add @RequestMapping to map request url.
+
+in Spring boot, container is inside the application, so it is very portable.
+
+1. plain java program.
+2. spring context initialization.
+3. embedded container and container less deployments.
+
+spring mvc will provide restful endpoints.
