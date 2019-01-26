@@ -2,3 +2,5 @@ install latest version of node as possible.
 install npm and angular cli in system.
 npm install -g @angular/cli
 create new app  ng new my-app
+-view list of options avaliable for angular to create app.
+ng new --help to view options for creating app
