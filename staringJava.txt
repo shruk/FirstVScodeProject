@@ -54,7 +54,7 @@ java abc class file will run the simple class file
 
 
 --testing java
-1. ensure Java test Runner is installed and enabled.
+1. ensure Java test Runner is installed and enabled. .
 
 --folder structure
 -src/main/resource folder by default should be copied to classpath output folder.
