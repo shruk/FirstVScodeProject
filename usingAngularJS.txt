@@ -1,0 +1,1 @@
+ng-app attribute denotes root of angularJS app, it points to module name in .js file.
