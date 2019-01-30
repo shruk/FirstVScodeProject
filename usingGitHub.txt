@@ -19,3 +19,7 @@
 19: go to git window and under the changes file, you can double click the file to view the differences between original and the change.
 20: in vscode left bottom corner, there is a button to sync local and remote.
 21: in vscode left bottom corner, there is a dropdown to choose branch. click that will also choose to create a new branch.
+
+
+--git comamnd
+git remote -v     to view the remote urls.

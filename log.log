@@ -1,0 +1,235 @@
+commit c276ac8c32e38e61cd1e300bcc317eac9966638b
+Merge: 8c540d7 a67de8f
+Author: Yongfang <windowsyyf@gmail.com>
+Date:   Fri Jan 25 21:16:14 2019 -0500
+
+    Merge branch 'master' of https://github.com/shruk/FirstVScodeProject
+
+commit a67de8f5701d12f610062f006119ace835fcb45e
+Author: phillip <windowsyyf@gmail.com>
+Date:   Fri Jan 25 21:02:12 2019 -0500
+
+    f
+
+ staringJava.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 8c540d7b5f71b08d43c4c3312d3591aaae51d7d9
+Author: Yongfang <windowsyyf@gmail.com>
+Date:   Fri Jan 25 19:32:45 2019 -0500
+
+    update doc
+
+ startingAngular.txt | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit 81bdae193fb231d716d6784512cd1e364d0cb55d
+Author: phillip <windowsyyf@gmail.com>
+Date:   Sun Jan 20 16:39:38 2019 -0500
+
+    test
+
+ C#toJava.txt        | 19 +++++++++++++++++++
+ staringJava.txt     | 18 +++++++++++++++++-
+ startSpringBoot.txt | 25 +++++++++++++++++++++++++
+ 3 files changed, 61 insertions(+), 1 deletion(-)
+
+commit 869fb30d2533343c4a482ea5e23dc25ae636390c
+Author: phillip <windowsyyf@gmail.com>
+Date:   Mon Jan 14 21:44:16 2019 -0500
+
+    test
+
+ startingMaven.txt | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+commit 9209060d0603b7af271fcbacef1c4edbf4f2c013
+Author: phillip <windowsyyf@gmail.com>
+Date:   Mon Jan 14 14:51:59 2019 -0500
+
+    test
+
+ startingMaven.txt | 30 ++++++++++++++++++++++++++----
+ 1 file changed, 26 insertions(+), 4 deletions(-)
+
+commit 292622fc18f2ec0447a9c9b44f694630ccdcd9bc
+Author: phillip <windowsyyf@gmail.com>
+Date:   Mon Jan 14 14:24:34 2019 -0500
+
+    test
+
+ staringJava.txt | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+commit 2f392c1049f737c2970c80bfe58d170add544e05
+Author: phillip <windowsyyf@gmail.com>
+Date:   Mon Jan 14 14:17:45 2019 -0500
+
+    test
+
+ staringJava.txt | 7 +++++++
+ 1 file changed, 7 insertions(+)
+
+commit f5ebfecb3082bf6014fd4ae1a91f78f4dd0fd34a
+Author: phillip <windowsyyf@gmail.com>
+Date:   Mon Jan 14 14:00:38 2019 -0500
+
+    test
+
+ staringJava.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit 75c5ef22e52909b5fd056f8a5327699555b3e92e
+Author: phillip <windowsyyf@gmail.com>
+Date:   Mon Jan 14 13:18:40 2019 -0500
+
+    yes
+
+ staringJava.txt | 36 ++++++++++++++++++++++++++++++++++++
+ 1 file changed, 36 insertions(+)
+
+commit f699093deca1343cfe190934b9f169c1320f48c0
+Author: phillip <windowsyyf@gmail.com>
+Date:   Mon Jan 14 12:06:11 2019 -0500
+
+    adding maven instructions.
+
+ startingMaven.txt | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+commit eabd1654142d099fef21f2b1cc53518d1735c3c2
+Author: phillip <windowsyyf@gmail.com>
+Date:   Mon Jan 14 11:44:09 2019 -0500
+
+    tes
+
+ staringJava.txt | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+commit e27f2b9cf17f6fd953e066c33dd5297e2d6869bb
+Author: phillip <windowsyyf@gmail.com>
+Date:   Mon Jan 14 11:39:37 2019 -0500
+
+    good
+
+ usingJava.txt => staringJava.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 322d7de503beda319c9a8e28a42d9568a116e6f1
+Author: phillip <windowsyyf@gmail.com>
+Date:   Mon Jan 14 11:37:42 2019 -0500
+
+    yes
+
+ usingJava.txt | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 5e950813f5763f750b133074a729eb9e6e809392
+Author: phillip <windowsyyf@gmail.com>
+Date:   Mon Jan 14 11:33:24 2019 -0500
+
+    update
+
+ usingJava.txt | 5 ++++-
+ 1 file changed, 4 insertions(+), 1 deletion(-)
+
+commit 427a0cbb7120818ebc425093c915a9ce43a72b15
+Author: phillip <windowsyyf@gmail.com>
+Date:   Mon Jan 14 11:10:10 2019 -0500
+
+    lock up!
+
+ usingVScode.txt | 3 ++-
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+
+commit 97db6629835a22b19bc41a9d82db6da7bca6c9ad
+Author: phillip <windowsyyf@gmail.com>
+Date:   Mon Jan 14 11:04:32 2019 -0500
+
+    adding stuff.
+
+ usingJava.txt | 5 +++--
+ 1 file changed, 3 insertions(+), 2 deletions(-)
+
+commit c556e6c066b442d22c36683e175b3448b7afb555
+Author: phillip <windowsyyf@gmail.com>
+Date:   Mon Jan 14 10:59:35 2019 -0500
+
+    adding java instruction.
+
+ usingJava.txt   | 5 +++++
+ usingVScode.txt | 3 ++-
+ 2 files changed, 7 insertions(+), 1 deletion(-)
+
+commit 49f80d136fa252afd99ca7b476824f1b689f09b2
+Author: phillip <windowsyyf@gmail.com>
+Date:   Mon Jan 14 10:29:41 2019 -0500
+
+    update
+
+ usingVScode.txt | 1 +
+ 1 file changed, 1 insertion(+)
+
+commit efc87c057a19e76bebf00ed0131214a01bc6fb4b
+Author: phillip <windowsyyf@gmail.com>
+Date:   Mon Jan 14 10:28:27 2019 -0500
+
+    update file name
+
+ readme.txt => usingGitHub.txt | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+
+commit 9532dbd757f39cee5f9f1c8cd62d9cbadf881ac3
+Author: phillip <windowsyyf@gmail.com>
+Date:   Mon Jan 14 10:22:42 2019 -0500
+
+    yes
+
+ readme.txt | 6 ++++--
+ 1 file changed, 4 insertions(+), 2 deletions(-)
+
+commit f95b0e30a21dff06f2a9914ea4c40d935fe0db07
+Author: phillip <windowsyyf@gmail.com>
+Date:   Mon Jan 14 10:13:59 2019 -0500
+
+    update
+
+ readme.txt | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+commit f6e0c8ab344b972582f298390709ae6ed2eccf45
+Author: phillip <windowsyyf@gmail.com>
+Date:   Mon Jan 14 03:18:53 2019 -0500
+
+    update
+
+ readme.txt | 4 +++-
+ 1 file changed, 3 insertions(+), 1 deletion(-)
+
+commit ea95b02cfd6a076c961dd9f7983da6c9eec3098e
+Author: phillip <windowsyyf@gmail.com>
+Date:   Mon Jan 14 03:16:24 2019 -0500
+
+    update
+
+ readme.txt | 6 +++---
+ 1 file changed, 3 insertions(+), 3 deletions(-)
+
+commit 94003e463ba4f0b5cf9d3b944fb33a8b963fc6e4
+Author: phillip <windowsyyf@gmail.com>
+Date:   Mon Jan 14 03:12:14 2019 -0500
+
+    continue update readme.txt
+
+ readme.txt | 9 +++++++--
+ 1 file changed, 7 insertions(+), 2 deletions(-)
+
+commit 67cda3d2d7ce2d473828189b3fa52353812ec7bb
+Author: phillip <windowsyyf@gmail.com>
+Date:   Mon Jan 14 02:54:49 2019 -0500
+
+    first commit
+
+ newFile.txt |  1 +
+ readme.txt  | 10 ++++++++++
+ 2 files changed, 11 insertions(+)
