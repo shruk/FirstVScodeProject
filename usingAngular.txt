@@ -1,0 +1,19 @@
+TypeScript
+declaring array        Production:any[];
+
+strong type in TypeScript
+
+interface are supported in typescript but not in ES5, so transpiled.
+interface are used like classic type.
+export interface IProduct{}
+
+
+data-binding:
+
+
+
+bootStrap Angular:
+main.ts file, which has a line of code 
+    platforBrowserDynamic().bootstrapModule(AppModule)
+     this line point our AppModule to the start point, 
+     in index.html we can directly use component based dirrective for angular app.
