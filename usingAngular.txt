@@ -28,4 +28,19 @@ main.ts file, which has a line of code
 
 Component lifecycle:
 
-class can implement OnInit
+    class can implement OnInit
+        ngOnInit():void{}
+
+Custom filter
+
+    class need to be decored as @Pipe from @angular/core
+    class need to implement PipeTransform
+        transform(value:string,charactor:string):string
+
+component communications
+        @Input bind by property pass data into child component
+        @Output  bind by event, child will raise the event and parent component can behave upon those event
+
+Services and Dependency Injection
+
+
