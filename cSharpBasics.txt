@@ -11,3 +11,10 @@ doesn't have fields
 abstract class is a class so it can only inherit only one abstract class,
 can have fields
 can have default imple
+
+== operator is defined as public static bool operator ==
+so this is an class level operation and it will not work when inheritance come into play, basically it works as compile-time without inheritance.
+static forces to use the overload on compile time.
+
+.Equals(Object) is an instance operation and deals with dynamic type of objects.
+This method is virtual
