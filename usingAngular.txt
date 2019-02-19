@@ -42,5 +42,38 @@ component communications
         @Output  bind by event, child will raise the event and parent component can behave upon those event
 
 Services and Dependency Injection
+            create service class add @Injectable
+            define scope by add providedIn properties 
+            Dependency Injection will happening in the constructor of the comsumer (e.g. component)
+
+Http service and observables
+            Import HttpClientModule into App.Module
+            In the service class, inject HttpClient instance into constructor
+            invoke http methods in service class method and use rxjs operator (pipe, tap, catchError)
+            create error handling method in service class
+            At consumer side, use subscribe method to consume observable and assign returned JSON to properties,
+            subscribe(nextFx,ErrorFn,SuccessFn)
 
 
+angular cli 
+        ng g c products/product-detail --flat
+
+Routing
+        -define base element in index.html
+        -Add RouterModule in App.Module.ts
+        -Add each Route (RouterModule.forRoot)
+        -Order Matters
+        -'' for default Route
+        -'**' for wildcard Route
+        -No leading slash
+        Add RouterLink directive as attribute [RouterLink]="['/welcome']"
+        Specify <router-outlet> for view display
+
+Routing parameter
+        {path: 'products/:id', component: ProductDetailComponent}
+        [routerLink]=['/products', product.productId]
+        constructor(private router: ActiveRoute){
+            console.log(this.route.snapshot.paramMap.get('id'));
+        }
+
+route guard
