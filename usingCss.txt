@@ -1,0 +1,4 @@
+usually inline style wins.
+!important to override styles...
+if there is multiple style, last style wins!
+id style wins over other styles
