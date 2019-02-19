@@ -2,3 +2,11 @@ usually inline style wins.
 !important to override styles...
 if there is multiple style, last style wins!
 id style wins over other styles
+
+
+when writing HTML, try to use context tag rather than div for SEO.
+1. <header> <footer> <ariticle> <nav> <section>
+
+margin: 0 auto;   to center a box
+border-radius: 10px   round corner
+
