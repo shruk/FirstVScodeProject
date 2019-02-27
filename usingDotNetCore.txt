@@ -1,0 +1,13 @@
+------run dot net app with source file--------------- requires sdk
+step1.  get the source code and project file
+step2.  download corresponding SDK and install on that machine.
+step3.  make sure dot net cli is working
+step3.  go to project folder and execute dotnet run. hopefully you can run the dotnet app in that folder.
+
+
+-- deploy dot net app
+ a. deploy FDD framework dependent deployment
+    execute dotnet publish, this will generate files that can be ported to another machine which has dotnet core runtime.
+
+b. deploy self-contained with target platform
+    execute dotnet publish
