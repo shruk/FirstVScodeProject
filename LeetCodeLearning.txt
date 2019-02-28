@@ -5,3 +5,7 @@ LinkedList:
 HashSet:
     HashSet<T> only allow unique Item to be stored so 
     HashSet.Add(T) returns false if dup is found.
+
+String
+    String has indexer so String[] can be used to get char
+    Also string implement IEnumerable so foreach can also be applied.
