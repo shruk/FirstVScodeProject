@@ -5,3 +5,8 @@ LinkedList:
 HashSet:
     HashSet<T> only allow unique Item to be stored so 
     HashSet.Add(T) returns false if dup is found.
+
+String:
+    to Int: Convert.ToInt32(string, fromBase) 
+    --fromBase is base of the number 2, 8,10, 16
+    
