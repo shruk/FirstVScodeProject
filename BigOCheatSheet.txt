@@ -1,0 +1,3 @@
+for loop : O (n)
+while loop: O(n)
+string= string+"abc" O(n^2):
